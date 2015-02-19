@@ -1,8 +1,8 @@
 var koa = require('koa');
 var app = koa();
-var homeRoutes = require('./app/home/home.router');
 
-app.use(homeRoutes.routes());
+require('./app/conf/app.bootstrap')(app);
+require('./app/conf/app.routes')(app);
 
 app.listen(3000, function () {
     console.log('Started.. ');

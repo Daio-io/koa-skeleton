@@ -1,7 +1,10 @@
+exports.getHome = function *(next) {
 
-exports.getHome = function *(next){
+    yield this.render("home", {
 
-    this.body = "Home";
-    yield next;
+        title: 'Koa Skeleton',
+        welcomeMessage: 'Home page'
+
+    });
 
 };
