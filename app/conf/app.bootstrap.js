@@ -7,7 +7,9 @@ module.exports = function (app) {
             layoutsDir: 'app/layouts',
             viewsDir: 'app/layouts/views',
             partialsDir: 'app/layouts/partials',
-            defaultLayout: 'main'
+            defaultLayout: 'main',
+            // just setting this while developing
+            cache: false
         }
     ));
 
