@@ -19,6 +19,7 @@
   "dependencies": {
     "koa": "^0.18.0",
     "koa-handlebars": "^0.5.0",
-    "koa-router": "^4.1.0"
+    "koa-router": "^4.1.0",
+    "koa-static": "^1.4.9"
   }
 }
