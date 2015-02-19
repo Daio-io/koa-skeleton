@@ -1,0 +1,19 @@
+{
+  "name": "koa-skeleton",
+  "version": "0.0.1",
+  "description": "A simple Koa framework skeleton to use with io.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Daveloper87/koa-skeleton.git"
+  },
+  "author": "Daveloper87",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daveloper87/koa-skeleton/issues"
+  },
+  "homepage": "https://github.com/Daveloper87/koa-skeleton"
+}
