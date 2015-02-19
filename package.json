@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Daveloper87/koa-skeleton/issues"
   },
-  "homepage": "https://github.com/Daveloper87/koa-skeleton"
+  "homepage": "https://github.com/Daveloper87/koa-skeleton",
+  "dependencies": {
+    "koa": "^0.18.0",
+    "koa-handlebars": "^0.5.0",
+    "koa-router": "^4.1.0"
+  }
 }
