@@ -1,4 +1,4 @@
-exports.getHome = function *(next) {
+exports.getHome = function *() {
 
     yield this.render("home", {
 
