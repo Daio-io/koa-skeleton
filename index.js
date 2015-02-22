@@ -7,6 +7,8 @@ app.use(serve(__dirname + '/public', {maxage: 0}));
 require('./app/conf/app.bootstrap')(app);
 require('./app/conf/app.routes')(app);
 
-app.listen(3000, function () {
+var port = process.env.PORT || 3000 ;
+
+app.listen(port, function () {
     console.log('Started.. ');
 });
