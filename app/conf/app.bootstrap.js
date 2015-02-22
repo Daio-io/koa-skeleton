@@ -1,4 +1,5 @@
 var hbs = require('koa-handlebars');
+var settings = require('./app.settings');
 
 module.exports = function (app) {
 
@@ -8,8 +9,7 @@ module.exports = function (app) {
             viewsDir: 'app/layouts/views',
             partialsDir: 'app/layouts/partials',
             defaultLayout: 'main',
-            // just setting this while developing
-            cache: false
+            cache: settings.templateCache
         }
     ));
 
