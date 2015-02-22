@@ -4,6 +4,6 @@ module.exports = {
 
     templateCache: (process.env.IO_ENV === 'live'),
 
-    publicCache: (process.env.IO_ENV === 'live') ? 0 : 86400000
+    publicCache: (process.env.IO_ENV === 'live') ? 86400000 : 0
 
 };
