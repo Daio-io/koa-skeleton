@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/Daveloper87/koa-skeleton",
   "dependencies": {
-    "koa": "^0.21.0",
+    "koa": "^1.0.0",
     "koa-handlebars": "^0.5.0",
-    "koa-router": "^5.0.1",
+    "koa-router": "^5.1.0",
     "koa-static": "^1.4.9"
   }
 }
