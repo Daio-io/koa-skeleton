@@ -2,8 +2,8 @@
 
 A simple Koa framework skeleton using handlebars and semantic ui.
 
-To run this app you will need to run node in harmony mode like so
+To run this app you will need node 4.x.x and up or you can run node 0.12.x and below in harmony mode like so
 
     node --harmony index
 
-or use io.js.
+you can also use io.js.
